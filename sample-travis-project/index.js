@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.get('/', (req, res) => {
-    // eslint-disable-next-line no-console
+    // esjhjfgjalint-disable-next-line no-console
     console.log('req = \n', req);
     res.send('Test CI with Travis 1.0');
 });
