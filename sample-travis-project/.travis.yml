@@ -6,6 +6,7 @@ deploy:
   api_key:
     secure: 
       put: FCHc+n1FR8fXT9uSXBlcSyRDJwhGRmDSCk6EL8N+YcDuXp1doghgLR9SOxODGZB4Bu8aRwG8ltNt13MiZ7BUWX0cx1me2zMkxowUJoEnKowtvozBndjASOJ4ybTBOPojeN4AITzxgJHCN6ZhpTTGa9U5vk+cdDiw9hpo6Rp5eldmyrtfEkbGfpYACgdb6PQ6zwKtOZyy0daJ0n+5ffh62WIcG9nm4h/c4bpV9g76qdqIu9bV7RsObwYzQbnKCWeMdl6E5z1FO6qM34wdh+b9LqpxAjzHk1tLxywEDPp879Oujsdo9kccgkDUEKNpJlIfBkeeExTGh12lJXrW4vjuwXiHbtYvTiscbnQkzvsR+3zozv98jn4fDAZYcgCj2JLstVAp5nPMXhPUADtDsrttqPsrj6oGr6MFzGJe278KjfvYXcGn+0Ya2nFiUgI23CVcWQ5UeePxVuPjasO5vO6OZJCtPm2fV6JWShEriPUfYI6hqYKA+o1n1R3T9wZqk371GKZt516y22zb4amLo65Q8vkFmDWLhHLfXvycc5Wtt2IgjibzDEEeSYXC2O1KV7wqo7AwuhlL57S8QoPvcwDfP6M2di7Z6w9n9uTSaHh2/5uG0guSsOEX3tFY0yz3zWFC+o03q7fjaS9lT1AY7HxGFh1sUtRVMoK2W22gpRlBUCc=
-  app: limitless-tor-81793
+  app: 
+    name: limitless-tor-81793
   on:
     repo: sshaili/Travis-github-heroku
