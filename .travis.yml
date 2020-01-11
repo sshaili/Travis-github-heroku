@@ -1,5 +1,12 @@
 language: node_js
 node_js:
 - stable
-- '6'
-- '4'
+deploy:
+  provider: heroku
+  api_key:
+    secure: 
+      put: csCahZD3sYpmWXjVgpEvVxWvh29zfNhgSwuh6EbRM+aFSAfxaZfqleD5DnU9MjODCzhpElF6kpLamzSewSY6waqW5dXAqEQ0fkdipMaEIlFxnInWfI7TIYYT9Uv1ljtIa8V3ikBoqdBV9I72EiO4E2xjFImxRowV0wHa7MRlYqjBkUzqRSlzf8g/SD3YMZ86kEAFzmx9afVTIqdUHYMd7kaXiW07RD7F0FfviTNHbgWIhU/6U6+5PmZ707gUosPjd4Iy2xfDyMPgFTn6YQiphy+67r1vM1I0BTinQpQRpcCxtxJFQW4G+ytix9IM6v0LhfazO3IHZs6NB+pAkM7ThcoOuftVm0CDpa2lO1YUH8MExv2MTZAJXQtCUxTs5oPzKYSLoA44g4vVlsRnpHJQfCHNAeXXoyR4uEz7gjmQJg8w3yMEdYTX8Kdo8oGOoCGXbQLNQZ41ce8D68evek4/RuiNCUx98fZKwqlU52dBbSXgRx2SjPyjeHPxoUFDDP5+O3zug3eqUpV3FJPK0CqBcpjyiAPVbmszTV9WGr5iE4sHyR2DtEJjfajN3XWRF7LgFwhtxCUZca55R0n5SFJZCZ/+CI6XEK4etyJiRcLyzDpGGR7fKf5JwXYiWd7tb1LWyePht8w3syhm+uLMxu6w/Mc59B34OvhYKxTTFa+gAs0=
+  app: 
+    name: enigmatic-bayou-00734
+  on:
+    repo: sshaili/Travis-github-heroku
